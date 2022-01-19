@@ -1,4 +1,4 @@
-import { initialState, setNewState } from "/control.js";
+import { initialState, setNewState } from "./control.js";
 
 function renderTerritory(state = initialState) {
   const parent = document.querySelector("#territory");
